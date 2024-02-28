@@ -19,12 +19,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"2163719.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="一、什么是Sora？2024年2月16日，OpenAI 在其官网上面正式宣布推出文本生成视频的大模型 Sora: Sora: Creating video from text （PS：目前 OpenAI 官方还未完全开放 Sora ，不过根据文生图模型案例，一定是先开放给 ChatGPT Plus 付费用户使用，需要注册或者升级 GPT Plus 可以看这个教程: 2024年升级ChatGPT P">
+    <meta name="description" content="什么是Sora？2024年2月16日，OpenAI 在其官网上面正式宣布推出文本生成视频的大模型 Sora: Sora: Creating video from text （PS：目前 OpenAI 官方还未完全开放 Sora ，不过根据文生图模型案例，一定是先开放给 ChatGPT Plus 付费用户使用，需要注册或者升级 GPT Plus 可以看这个教程: 2024年升级ChatGPT Plu">
 <meta property="og:type" content="article">
 <meta property="og:title" content="2024年手把手教你使用OpenAI Sora--小白必看">
 <meta property="og:url" content="https://2163719.github.io/sora.html">
 <meta property="og:site_name" content="Sic Parvis Magna">
-<meta property="og:description" content="一、什么是Sora？2024年2月16日，OpenAI 在其官网上面正式宣布推出文本生成视频的大模型 Sora: Sora: Creating video from text （PS：目前 OpenAI 官方还未完全开放 Sora ，不过根据文生图模型案例，一定是先开放给 ChatGPT Plus 付费用户使用，需要注册或者升级 GPT Plus 可以看这个教程: 2024年升级ChatGPT P">
+<meta property="og:description" content="什么是Sora？2024年2月16日，OpenAI 在其官网上面正式宣布推出文本生成视频的大模型 Sora: Sora: Creating video from text （PS：目前 OpenAI 官方还未完全开放 Sora ，不过根据文生图模型案例，一定是先开放给 ChatGPT Plus 付费用户使用，需要注册或者升级 GPT Plus 可以看这个教程: 2024年升级ChatGPT Plu">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://2163719.github.io/sora/1.png">
 <meta property="og:image" content="https://2163719.github.io/sora/2.png">
@@ -46,7 +46,7 @@
 <meta property="og:image" content="https://2163719.github.io/sora/18.png">
 <meta property="og:image" content="https://2163719.github.io/sora/19.png">
 <meta property="article:published_time" content="2024-02-28T14:04:08.000Z">
-<meta property="article:modified_time" content="2024-02-28T14:57:07.044Z">
+<meta property="article:modified_time" content="2024-02-28T15:30:01.600Z">
 <meta property="article:author" content="Murphy Zhang">
 <meta property="article:tag" content="OpenAI Sora">
 <meta name="twitter:card" content="summary">
@@ -125,7 +125,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AFSora%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">一、什么是Sora？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BA%8C%E3%80%81Sora%E7%94%9F%E6%88%90%E7%9A%84%E8%A7%86%E9%A2%91%E6%A1%88%E4%BE%8B"><span class="nav-number">2.</span> <span class="nav-text">二、Sora生成的视频案例</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-Text-To-Video%EF%BC%9A%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91"><span class="nav-number">2.1.</span> <span class="nav-text">1. Text To Video：文本生成视频</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-Image-To-Video%EF%BC%9A%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91"><span class="nav-number">2.2.</span> <span class="nav-text">2. Image To Video：图片生成视频</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-Connecting-Videos%EF%BC%9A%E8%BF%9E%E6%8E%A5%E8%A7%86%E9%A2%91"><span class="nav-number">2.3.</span> <span class="nav-text">3. Connecting Videos：连接视频</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Sora%EF%BC%9F"><span class="nav-number">3.</span> <span class="nav-text">三、如何使用Sora？</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#3-1-%E4%BD%BF%E7%94%A8Sora%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">3.0.1.</span> <span class="nav-text">3.1 使用Sora前的准备工作</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#3-2-Sora%E4%BD%BF%E7%94%A8%E6%AD%A5%E9%AA%A4%E4%B8%80%EF%BC%9A%E6%96%87%E6%9C%AC%E6%8F%8F%E8%BF%B0"><span class="nav-number">3.0.2.</span> <span class="nav-text">3.2 Sora使用步骤一：文本描述</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#3-3-Sora%E4%BD%BF%E7%94%A8%E6%AD%A5%E9%AA%A4%E4%BA%8C%EF%BC%9A%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91"><span class="nav-number">3.0.3.</span> <span class="nav-text">3.3 Sora使用步骤二：生成视频</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%9B%E3%80%81Sora%E8%83%8C%E5%90%8E%E7%9A%84%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86"><span class="nav-number">4.</span> <span class="nav-text">四、Sora背后的技术原理</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#1-%E8%A7%86%E8%A7%89%E6%95%B0%E6%8D%AE%E8%BD%AC%E4%B8%BA-Patches"><span class="nav-number">4.0.1.</span> <span class="nav-text">1. 视觉数据转为 Patches</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#2-%E8%A7%86%E9%A2%91%E5%8E%8B%E7%BC%A9%E7%BD%91%E7%BB%9C"><span class="nav-number">4.0.2.</span> <span class="nav-text">2. 视频压缩网络</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#3-%E6%97%B6%E7%A9%BA%E6%BD%9C%E5%9C%A8-patches"><span class="nav-number">4.0.3.</span> <span class="nav-text">3. 时空潜在 patches</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#4-%E7%94%A8%E4%BA%8E%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E7%9A%84%E7%BC%A9%E6%94%BE-Transformer"><span class="nav-number">4.0.4.</span> <span class="nav-text">4. 用于视频生成的缩放 Transformer</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#5-%E5%8F%AF%E5%8F%98%E7%9A%84%E6%8C%81%E7%BB%AD%E6%97%B6%E9%97%B4%EF%BC%8C%E5%88%86%E8%BE%A8%E7%8E%87%EF%BC%8C%E5%AE%BD%E9%AB%98%E6%AF%94"><span class="nav-number">4.0.5.</span> <span class="nav-text">5. 可变的持续时间，分辨率，宽高比</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#6-%E8%AF%AD%E8%A8%80%E7%90%86%E8%A7%A3"><span class="nav-number">4.0.6.</span> <span class="nav-text">6. 语言理解</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E9%99%8D%E7%BB%B4%E6%89%93%E5%87%BB%EF%BC%8CSora%E4%B8%8ERunway%E3%80%81Pika%E7%9A%84%E5%AF%B9%E6%AF%94"><span class="nav-number">5.</span> <span class="nav-text">五、降维打击，Sora与Runway、Pika的对比</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%AD%E3%80%81Sora%E7%9A%84%E5%B1%80%E9%99%90%E6%80%A7"><span class="nav-number">6.</span> <span class="nav-text">六、Sora的局限性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%83%E3%80%81%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8OpenAI-Sora%E7%9A%84Q-A"><span class="nav-number">7.</span> <span class="nav-text">七、如何使用OpenAI Sora的Q&amp;A</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFSora%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">什么是Sora？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Sora%E7%94%9F%E6%88%90%E7%9A%84%E8%A7%86%E9%A2%91%E6%A1%88%E4%BE%8B"><span class="nav-number">2.</span> <span class="nav-text">Sora生成的视频案例</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Text-To-Video%EF%BC%9A%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91"><span class="nav-number">2.1.</span> <span class="nav-text">Text To Video：文本生成视频</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Image-To-Video%EF%BC%9A%E5%9B%BE%E7%89%87%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91"><span class="nav-number">2.2.</span> <span class="nav-text">Image To Video：图片生成视频</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Connecting-Videos%EF%BC%9A%E8%BF%9E%E6%8E%A5%E8%A7%86%E9%A2%91"><span class="nav-number">2.3.</span> <span class="nav-text">Connecting Videos：连接视频</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Sora%EF%BC%9F"><span class="nav-number">3.</span> <span class="nav-text">如何使用Sora？</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8Sora%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">3.1.</span> <span class="nav-text">使用Sora前的准备工作</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Sora%E4%BD%BF%E7%94%A8%E6%AD%A5%E9%AA%A4%E4%B8%80%EF%BC%9A%E6%96%87%E6%9C%AC%E6%8F%8F%E8%BF%B0"><span class="nav-number">3.2.</span> <span class="nav-text">Sora使用步骤一：文本描述</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Sora%E4%BD%BF%E7%94%A8%E6%AD%A5%E9%AA%A4%E4%BA%8C%EF%BC%9A%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91"><span class="nav-number">3.3.</span> <span class="nav-text">Sora使用步骤二：生成视频</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Sora%E8%83%8C%E5%90%8E%E7%9A%84%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86"><span class="nav-number">4.</span> <span class="nav-text">Sora背后的技术原理</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%A7%86%E8%A7%89%E6%95%B0%E6%8D%AE%E8%BD%AC%E4%B8%BA-Patches"><span class="nav-number">4.1.</span> <span class="nav-text">视觉数据转为 Patches</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%A7%86%E9%A2%91%E5%8E%8B%E7%BC%A9%E7%BD%91%E7%BB%9C"><span class="nav-number">4.2.</span> <span class="nav-text">视频压缩网络</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%97%B6%E7%A9%BA%E6%BD%9C%E5%9C%A8-patches"><span class="nav-number">4.3.</span> <span class="nav-text">时空潜在 patches</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%94%A8%E4%BA%8E%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90%E7%9A%84%E7%BC%A9%E6%94%BE-Transformer"><span class="nav-number">4.4.</span> <span class="nav-text">用于视频生成的缩放 Transformer</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%8F%AF%E5%8F%98%E7%9A%84%E6%8C%81%E7%BB%AD%E6%97%B6%E9%97%B4%EF%BC%8C%E5%88%86%E8%BE%A8%E7%8E%87%EF%BC%8C%E5%AE%BD%E9%AB%98%E6%AF%94"><span class="nav-number">4.5.</span> <span class="nav-text">可变的持续时间，分辨率，宽高比</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%AF%AD%E8%A8%80%E7%90%86%E8%A7%A3"><span class="nav-number">4.6.</span> <span class="nav-text">语言理解</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%99%8D%E7%BB%B4%E6%89%93%E5%87%BB%EF%BC%8CSora%E4%B8%8ERunway%E3%80%81Pika%E7%9A%84%E5%AF%B9%E6%AF%94"><span class="nav-number">5.</span> <span class="nav-text">降维打击，Sora与Runway、Pika的对比</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Sora%E7%9A%84%E5%B1%80%E9%99%90%E6%80%A7"><span class="nav-number">6.</span> <span class="nav-text">Sora的局限性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8OpenAI-Sora%E7%9A%84Q-A"><span class="nav-number">7.</span> <span class="nav-text">如何使用OpenAI Sora的Q&amp;A</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%EF%BC%9ASora%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="nav-number">7.1.</span> <span class="nav-text">问题：Sora是什么？</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%EF%BC%9ASora%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8%EF%BC%9F"><span class="nav-number">7.2.</span> <span class="nav-text">问题：Sora怎么使用？</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%EF%BC%9ASora%E7%9A%84%E4%BC%98%E5%8A%BF%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F"><span class="nav-number">7.3.</span> <span class="nav-text">问题：Sora的优势有哪些？</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%EF%BC%9ASora%E7%9A%84%E8%AE%AD%E7%BB%83%E5%8E%9F%E7%90%86%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="nav-number">7.4.</span> <span class="nav-text">问题：Sora的训练原理是什么？</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -200,7 +200,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-02-28 22:04:08 / 修改时间：22:57:07" itemprop="dateCreated datePublished" datetime="2024-02-28T22:04:08+08:00">2024-02-28</time>
+      <time title="创建时间：2024-02-28 22:04:08 / 修改时间：23:30:01" itemprop="dateCreated datePublished" datetime="2024-02-28T22:04:08+08:00">2024-02-28</time>
     </span>
 
   
@@ -212,14 +212,14 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h4 id="一、什么是Sora？"><a href="#一、什么是Sora？" class="headerlink" title="一、什么是Sora？"></a>一、什么是Sora？</h4><p>2024年2月16日，OpenAI 在其官网上面正式宣布推出文本生成视频的大模型 Sora:</p>
+    <div class="post-body" itemprop="articleBody"><h4 id="什么是Sora？"><a href="#什么是Sora？" class="headerlink" title="什么是Sora？"></a>什么是Sora？</h4><p>2024年2月16日，OpenAI 在其官网上面正式宣布推出文本生成视频的大模型 Sora:</p>
 <p><a target="_blank" rel="noopener" href="https://openai.com/sora">Sora: Creating video from text</a></p>
 <p>（PS：目前 OpenAI 官方还未完全开放 Sora ，不过根据文生图模型案例，一定是先开放给 ChatGPT Plus 付费用户使用，需要注册或者升级 GPT Plus 可以看这个教程: <a href="https://2163719.github.io/2024%E5%B9%B4%E5%8D%87%E7%BA%A7chatgpt4%E6%9C%80%E8%AF%A6%E7%BB%86%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B.html">2024年升级ChatGPT Plus最详细图文教程（新手小白必看）</a>，一分钟完成升级）</p>
 <p>今天，我们都在感受 Sora 的带来的魅力。</p>
 <p>OpenAI 的首个视频生成模型 Sora，让「一句话生成视频」的前沿 AI 技术向上突破了一大截，引发了业界对于生成式 AI 技术方向的大讨论。</p>
 <p>Sora 不是一个简单的视频生成器，它是一个数据驱动的物理引擎，其对于虚拟和现实世界进行模拟。在这个过程中，模拟器通过一些去噪和梯度数学方法来学习复杂的视觉渲染，构建出「直观」的物理效果，以及进行长期推理和语义基础。</p>
-<h4 id="二、Sora生成的视频案例"><a href="#二、Sora生成的视频案例" class="headerlink" title="二、Sora生成的视频案例"></a>二、Sora生成的视频案例</h4><p>这里只放了各个视频的截图，想看原视频的童鞋可以去这个网站：<a target="_blank" rel="noopener" href="https://soravideos.media/">sora video</a></p>
-<h5 id="1-Text-To-Video：文本生成视频"><a href="#1-Text-To-Video：文本生成视频" class="headerlink" title="1. Text To Video：文本生成视频"></a>1. Text To Video：文本生成视频</h5><p><strong>案例1：</strong>Prompt: cinematic trailer for a group of samoyed puppies learning to become chefs</p>
+<h4 id="Sora生成的视频案例"><a href="#Sora生成的视频案例" class="headerlink" title="Sora生成的视频案例"></a>Sora生成的视频案例</h4><p>这里只放了各个视频的截图，想看原视频的童鞋可以去这个网站：<a target="_blank" rel="noopener" href="https://soravideos.media/">sora video</a></p>
+<h5 id="Text-To-Video：文本生成视频"><a href="#Text-To-Video：文本生成视频" class="headerlink" title="Text To Video：文本生成视频"></a>Text To Video：文本生成视频</h5><p><strong>案例1：</strong>Prompt: cinematic trailer for a group of samoyed puppies learning to become chefs</p>
 <p>翻译：一群学习成为厨师的萨摩耶小狗的电影预告片</p>
 <img src="/sora/1.png" class="slug">
 
@@ -235,7 +235,7 @@
 <p>翻译：一个巨大的大教堂里完全挤满了猫，目光所及之处到处都是猫。一个男人走进大教堂，向坐在宝座上的巨型猫王面前鞠躬。</p>
 <img src="/sora/4.png" class="slug">
 
-<h5 id="2-Image-To-Video：图片生成视频"><a href="#2-Image-To-Video：图片生成视频" class="headerlink" title="2. Image To Video：图片生成视频"></a>2. Image To Video：图片生成视频</h5><p><strong>案例1：</strong>Prompt：A Shiba Inu dog wearing a beret and black turtleneck.</p>
+<h5 id="Image-To-Video：图片生成视频"><a href="#Image-To-Video：图片生成视频" class="headerlink" title="Image To Video：图片生成视频"></a>Image To Video：图片生成视频</h5><p><strong>案例1：</strong>Prompt：A Shiba Inu dog wearing a beret and black turtleneck.</p>
 <p>翻译：一只穿着贝雷帽和黑色高领毛衣的柴犬。</p>
 <p>Image：</p>
 <img src="/sora/5.png" class="slug">
@@ -251,7 +251,7 @@
 <p>生成的视频截图如下：</p>
 <img src="/sora/8.png" class="slug">
 
-<h5 id="3-Connecting-Videos：连接视频"><a href="#3-Connecting-Videos：连接视频" class="headerlink" title="3. Connecting Videos：连接视频"></a>3. Connecting Videos：连接视频</h5><p>The videos in the center interpolate between the corresponding videos on the left and right.</p>
+<h5 id="Connecting-Videos：连接视频"><a href="#Connecting-Videos：连接视频" class="headerlink" title="Connecting Videos：连接视频"></a>Connecting Videos：连接视频</h5><p>The videos in the center interpolate between the corresponding videos on the left and right.</p>
 <p>翻译：中间的视频在左侧和右侧的相应视频之间进行插值。</p>
 <p>我们可以使用 Sora 在两个输入视频之间逐渐进行转场，从而在具有完全不同主题和场景构成的视频之间创建无缝过渡。</p>
 <p>左边的视频截图：</p>
@@ -263,27 +263,27 @@
 <p>中间的连接得到的视频截图：</p>
 <img src="/sora/11.png" class="slug">
 
-<h4 id="三、如何使用Sora？"><a href="#三、如何使用Sora？" class="headerlink" title="三、如何使用Sora？"></a>三、如何使用Sora？</h4><p>（PS：目前 OpenAI 官方还未完全开放 Sora ，不过根据文生图模型案例，一定是先开放给 ChatGPT Plus 付费用户使用，需要注册或者升级 GPT Plus 可以看这个教程: <a href="https://2163719.github.io/2024%E5%B9%B4%E6%95%99%E4%BD%A0%E4%B8%80%E9%94%AE%E5%8D%87%E7%BA%A7ChatGPT.html">2024年手把手教你升级 ChatGPT Plus（附一键升级攻略）</a> ，一分钟完成升级）</p>
-<h6 id="3-1-使用Sora前的准备工作"><a href="#3-1-使用Sora前的准备工作" class="headerlink" title="3.1 使用Sora前的准备工作"></a><strong>3.1</strong> 使用Sora前的准备工作</h6><p>在开始之前，确保您已经拥有了OpenAI账目，并获得了Sora的访问权限。准备好您想要转化成视频的文本描述，记住越详细越好。</p>
-<h6 id="3-2-Sora使用步骤一：文本描述"><a href="#3-2-Sora使用步骤一：文本描述" class="headerlink" title="3.2 Sora使用步骤一：文本描述"></a><strong>3.2</strong> Sora使用步骤一：文本描述</h6><p>登录您的OpenAI账户，找到Sora的使用界面。在指定区域输入您的文本描述，可以是一个故事概述、场景描述或是具体的动作指令。</p>
-<h6 id="3-3-Sora使用步骤二：生成视频"><a href="#3-3-Sora使用步骤二：生成视频" class="headerlink" title="3.3 Sora使用步骤二：生成视频"></a><strong>3.3</strong> Sora使用步骤二：生成视频</h6><p>完成文本描述和自定义设置后，点击“生成视频”按钮。Sora将开始处理您的请求，这可能需要几分钟时间。完成后，您可以预览生成的视频。</p>
+<h4 id="如何使用Sora？"><a href="#如何使用Sora？" class="headerlink" title="如何使用Sora？"></a>如何使用Sora？</h4><p>（PS：目前 OpenAI 官方还未完全开放 Sora ，不过根据文生图模型案例，一定是先开放给 ChatGPT Plus 付费用户使用，需要注册或者升级 GPT Plus 可以看这个教程: <a href="https://2163719.github.io/2024%E5%B9%B4%E6%95%99%E4%BD%A0%E4%B8%80%E9%94%AE%E5%8D%87%E7%BA%A7ChatGPT.html">2024年手把手教你升级 ChatGPT Plus（附一键升级攻略）</a> ，一分钟完成升级）</p>
+<h5 id="使用Sora前的准备工作"><a href="#使用Sora前的准备工作" class="headerlink" title="使用Sora前的准备工作"></a>使用Sora前的准备工作</h5><p>在开始之前，确保您已经拥有了OpenAI账目，并获得了Sora的访问权限。准备好您想要转化成视频的文本描述，记住越详细越好。</p>
+<h5 id="Sora使用步骤一：文本描述"><a href="#Sora使用步骤一：文本描述" class="headerlink" title="Sora使用步骤一：文本描述"></a>Sora使用步骤一：文本描述</h5><p>登录您的OpenAI账户，找到Sora的使用界面。在指定区域输入您的文本描述，可以是一个故事概述、场景描述或是具体的动作指令。</p>
+<h5 id="Sora使用步骤二：生成视频"><a href="#Sora使用步骤二：生成视频" class="headerlink" title="Sora使用步骤二：生成视频"></a>Sora使用步骤二：生成视频</h5><p>完成文本描述和自定义设置后，点击“生成视频”按钮。Sora将开始处理您的请求，这可能需要几分钟时间。完成后，您可以预览生成的视频。</p>
 <p>需要注意的是，截止2024年2月18日，OpenAI只向部分专业用户开放了Sora的访问权限。普通用户只能观看其发布的演示视频。</p>
-<h4 id="四、Sora背后的技术原理"><a href="#四、Sora背后的技术原理" class="headerlink" title="四、Sora背后的技术原理"></a>四、Sora背后的技术原理</h4><p>在 Sora 推出后，OpenAI 很快公布了技术报告。OpenAI 在技术报告中重点展示了：（1）将所有类型的视觉数据转化为统一表示，从而能够大规模训练生成模型的方法；以及（2）对 Sora 的能力和局限性进行定性评估。</p>
+<h4 id="Sora背后的技术原理"><a href="#Sora背后的技术原理" class="headerlink" title="Sora背后的技术原理"></a>Sora背后的技术原理</h4><p>在 Sora 推出后，OpenAI 很快公布了技术报告。OpenAI 在技术报告中重点展示了：（1）将所有类型的视觉数据转化为统一表示，从而能够大规模训练生成模型的方法；以及（2）对 Sora 的能力和局限性进行定性评估。</p>
 <p>令人遗憾的是，OpenAI 的报告不包含模型和训练的细节。</p>
 <p>OpenAI 探索了视频数据生成模型的大规模训练。具体来说，研究人员在可变持续时间、分辨率和宽高比的视频和图像上联合训练了一个文本条件扩散模型。作者利用对视频和图像潜在代码的时空补丁进行操作的 transformer 架构，其最大的模型 Sora 能够生成长达一分钟的高质量视频。</p>
 <p>OpenAI 认为，新展示的结果表明，扩展视频生成模型是构建物理世界通用模拟器的一条有前途的途径。</p>
 <img src="/sora/12.png" class="slug">
 
 <p>技术报告地址：<a target="_blank" rel="noopener" href="https://openai.com/research/video-generation-models-as-world-simulators">https://openai.com/research/video-generation-models-as-world-simulators</a></p>
-<h6 id="1-视觉数据转为-Patches"><a href="#1-视觉数据转为-Patches" class="headerlink" title="1. 视觉数据转为 Patches"></a><strong>1. 视觉数据转为 Patches</strong></h6><p>大型语言模型通过在互联网规模的数据上进行训练，获得了出色的通用能力中，OpenAI 从这一点汲取了灵感。LLM 得以确立新范式，部分得益于创新了 token 使用的方法。研究人员们巧妙地将文本的多种模态 —— 代码、数学和各种自然语言统一了起来。</p>
-<h6 id="2-视频压缩网络"><a href="#2-视频压缩网络" class="headerlink" title="2. 视频压缩网络"></a><strong>2. 视频压缩网络</strong></h6><p>OpenAI 训练了一个降低视觉数据维度的网络。该网络将原始视频作为输入，并输出在时间和空间上压缩的潜在表示。Sora 在这个压缩的潜在空间中接受训练，而后生成视频。OpenAI 还训练了相应的解码器模型，将生成的潜在表示映射回像素空间。</p>
-<h6 id="3-时空潜在-patches"><a href="#3-时空潜在-patches" class="headerlink" title="3. 时空潜在 patches"></a><strong>3. 时空潜在 patches</strong></h6><p>给定一个压缩的输入视频，OpenAI 提取一系列时空 patches，充当 Transformer 的 tokens。该方案也适用于图像，因为图像可视为单帧视频。OpenAI 基于 patches 的表示使 Sora 能够对不同分辨率、持续时间和长宽比的视频和图像进行训练。在推理时，OpenAI 可以通过在适当大小的网格中排列随机初始化的 patches 来控制生成视频的大小。</p>
-<h6 id="4-用于视频生成的缩放-Transformer"><a href="#4-用于视频生成的缩放-Transformer" class="headerlink" title="4. 用于视频生成的缩放 Transformer"></a><strong>4. 用于视频生成的缩放 Transformer</strong></h6><p>Sora 是个扩散模型；给定输入噪声 patches（以及文本提示等调节信息），训练出的模型来预测原始的「干净」patches。重要的是，Sora 是一个扩散 Transformer。Transformer 在各个领域都表现出了卓越的缩放特性，包括语言建模、计算机视觉、和图像生成。</p>
-<h6 id="5-可变的持续时间，分辨率，宽高比"><a href="#5-可变的持续时间，分辨率，宽高比" class="headerlink" title="5. 可变的持续时间，分辨率，宽高比"></a><strong>5. 可变的持续时间，分辨率，宽高比</strong></h6><p>过去的图像和视频生成方法通常需要调整大小、进行裁剪或者是将视频剪切到标准尺寸，例如 4 秒的视频分辨率为 256x256。相反，该研究发现在原始大小的数据上进行训练，可以提供以下好处：</p>
+<h5 id="视觉数据转为-Patches"><a href="#视觉数据转为-Patches" class="headerlink" title="视觉数据转为 Patches"></a><strong>视觉数据转为 Patches</strong></h5><p>大型语言模型通过在互联网规模的数据上进行训练，获得了出色的通用能力中，OpenAI 从这一点汲取了灵感。LLM 得以确立新范式，部分得益于创新了 token 使用的方法。研究人员们巧妙地将文本的多种模态 —— 代码、数学和各种自然语言统一了起来。</p>
+<h5 id="视频压缩网络"><a href="#视频压缩网络" class="headerlink" title="视频压缩网络"></a><strong>视频压缩网络</strong></h5><p>OpenAI 训练了一个降低视觉数据维度的网络。该网络将原始视频作为输入，并输出在时间和空间上压缩的潜在表示。Sora 在这个压缩的潜在空间中接受训练，而后生成视频。OpenAI 还训练了相应的解码器模型，将生成的潜在表示映射回像素空间。</p>
+<h5 id="时空潜在-patches"><a href="#时空潜在-patches" class="headerlink" title="时空潜在 patches"></a><strong>时空潜在 patches</strong></h5><p>给定一个压缩的输入视频，OpenAI 提取一系列时空 patches，充当 Transformer 的 tokens。该方案也适用于图像，因为图像可视为单帧视频。OpenAI 基于 patches 的表示使 Sora 能够对不同分辨率、持续时间和长宽比的视频和图像进行训练。在推理时，OpenAI 可以通过在适当大小的网格中排列随机初始化的 patches 来控制生成视频的大小。</p>
+<h5 id="用于视频生成的缩放-Transformer"><a href="#用于视频生成的缩放-Transformer" class="headerlink" title="用于视频生成的缩放 Transformer"></a><strong>用于视频生成的缩放 Transformer</strong></h5><p>Sora 是个扩散模型；给定输入噪声 patches（以及文本提示等调节信息），训练出的模型来预测原始的「干净」patches。重要的是，Sora 是一个扩散 Transformer。Transformer 在各个领域都表现出了卓越的缩放特性，包括语言建模、计算机视觉、和图像生成。</p>
+<h5 id="可变的持续时间，分辨率，宽高比"><a href="#可变的持续时间，分辨率，宽高比" class="headerlink" title="可变的持续时间，分辨率，宽高比"></a><strong>可变的持续时间，分辨率，宽高比</strong></h5><p>过去的图像和视频生成方法通常需要调整大小、进行裁剪或者是将视频剪切到标准尺寸，例如 4 秒的视频分辨率为 256x256。相反，该研究发现在原始大小的数据上进行训练，可以提供以下好处：</p>
 <p>首先是采样的灵活性：Sora 可以采样宽屏视频 1920x1080p，垂直视频 1920x1080p 以及两者之间的视频。这使 Sora 可以直接以其天然纵横比为不同设备创建内容。Sora 还允许在生成全分辨率的内容之前，以较小的尺寸快速创建内容原型 —— 所有内容都使用相同的模型。</p>
-<h6 id="6-语言理解"><a href="#6-语言理解" class="headerlink" title="6. 语言理解"></a><strong>6. 语言理解</strong></h6><p>具体来说，研究团队首先训练一个高度描述性的字幕生成器模型，然后使用它为训练集中所有视频生成文本字幕。研究团队发现，对高度描述性视频字幕进行训练可以提高文本保真度以及视频的整体质量。</p>
+<h5 id="语言理解"><a href="#语言理解" class="headerlink" title="语言理解"></a><strong>语言理解</strong></h5><p>具体来说，研究团队首先训练一个高度描述性的字幕生成器模型，然后使用它为训练集中所有视频生成文本字幕。研究团队发现，对高度描述性视频字幕进行训练可以提高文本保真度以及视频的整体质量。</p>
 <p>与 DALL・E3 类似，研究团队还利用 GPT 将简短的用户 prompt 转换为较长的详细字幕，然后发送到视频模型。这使得 Sora 能够生成准确遵循用户 prompt 的高质量视频。</p>
-<h4 id="五、降维打击，Sora与Runway、Pika的对比"><a href="#五、降维打击，Sora与Runway、Pika的对比" class="headerlink" title="五、降维打击，Sora与Runway、Pika的对比"></a>五、降维打击，Sora与Runway、Pika的对比</h4><p>当然，随着 Sora 加入这场视频生成领域的战争，受到冲击最大的是同类竞品模型，比如 Runway、Pika、SDV、谷歌和 Meta。</p>
+<h4 id="降维打击，Sora与Runway、Pika的对比"><a href="#降维打击，Sora与Runway、Pika的对比" class="headerlink" title="降维打击，Sora与Runway、Pika的对比"></a>降维打击，Sora与Runway、Pika的对比</h4><p>当然，随着 Sora 加入这场视频生成领域的战争，受到冲击最大的是同类竞品模型，比如 Runway、Pika、SDV、谷歌和 Meta。</p>
 <p>看到 Sora 的生成效果之后，很多人认为，Sora 对这些「前辈」来了一波降维打击。事实真的如此吗？有推特博主已经做了对比。</p>
 <img src="/sora/13.png" class="slug">
 
@@ -304,7 +304,7 @@
 
 <p>图片来源：<a target="_blank" rel="noopener" href="https://twitter.com/keitowebai/status/1758384152670577136">https://twitter.com/keitowebai/status/1758384152670577136</a></p>
 <p>虽然 Runway 和 Pika 表现都不错，但 Sora 的生成质量具有压倒性的优势。</p>
-<h4 id="六、Sora的局限性"><a href="#六、Sora的局限性" class="headerlink" title="六、Sora的局限性"></a>六、Sora的局限性</h4><p>作为一款模拟器，Sora 目前还存在许多局限性。例如，它不能准确模拟许多基本交互的物理现象，如玻璃碎裂。其他交互，如吃食物，并不总能产生正确的物体状态变化。官方主页列举了该模型的其他常见失效模式，例如长时间样本中出现的不一致性或物体的自发出现。</p>
+<h4 id="Sora的局限性"><a href="#Sora的局限性" class="headerlink" title="Sora的局限性"></a>Sora的局限性</h4><p>作为一款模拟器，Sora 目前还存在许多局限性。例如，它不能准确模拟许多基本交互的物理现象，如玻璃碎裂。其他交互，如吃食物，并不总能产生正确的物体状态变化。官方主页列举了该模型的其他常见失效模式，例如长时间样本中出现的不一致性或物体的自发出现。</p>
 <p><strong>案例1：</strong>Prompt：Archeologists discover a generic plastic chair in the desert, excavating and dusting it with great care.</p>
 <p>翻译：考古学家在沙漠中发现了一把普通的塑料椅子，他们小心翼翼地挖掘并掸去了上面的灰尘。</p>
 <img src="/sora/17.png" class="slug">
@@ -315,26 +315,26 @@
 <p><strong>案例3：</strong>篮球穿过篮筐后爆炸</p>
 <img src="/sora/19.png" class="slug">
 
-<h4 id="七、如何使用OpenAI-Sora的Q-A"><a href="#七、如何使用OpenAI-Sora的Q-A" class="headerlink" title="七、如何使用OpenAI Sora的Q&amp;A"></a>七、如何使用OpenAI Sora的Q&amp;A</h4><ul>
-<li><strong>问题：Sora是什么？</strong></li>
+<h4 id="如何使用OpenAI-Sora的Q-A"><a href="#如何使用OpenAI-Sora的Q-A" class="headerlink" title="如何使用OpenAI Sora的Q&amp;A"></a>如何使用OpenAI Sora的Q&amp;A</h4><ul>
+<li><h5 id="问题：Sora是什么？"><a href="#问题：Sora是什么？" class="headerlink" title="问题：Sora是什么？"></a><strong>问题：Sora是什么？</strong></h5></li>
 </ul>
 <p>Sora是由OpenAI开发的AI视频生成模型。</p>
 <p>Sora可以根据用户提供的描述性文字生成长达60秒的高质量视频。</p>
 <p>Sora的视频包含精细复杂的场景、生动的角色表情和复杂的镜头运动。</p>
 <ul>
-<li><strong>问题：Sora怎么使用？</strong></li>
+<li><h5 id="问题：Sora怎么使用？"><a href="#问题：Sora怎么使用？" class="headerlink" title="问题：Sora怎么使用？"></a><strong>问题：Sora怎么使用？</strong></h5></li>
 </ul>
 <p>登录OpenAI账户并找到Sora的使用界面。</p>
 <p>在指定区域输入您的文本描述，可以是一个故事概述、场景描述或是具体的动作指令。</p>
 <p>点击生成按钮，OpenAI Sora会根据您的文本描述生成视频。</p>
 <ul>
-<li><strong>问题：Sora的优势有哪些？</strong></li>
+<li><h5 id="问题：Sora的优势有哪些？"><a href="#问题：Sora的优势有哪些？" class="headerlink" title="问题：Sora的优势有哪些？"></a><strong>问题：Sora的优势有哪些？</strong></h5></li>
 </ul>
 <p>Sora具有极强的扩展性，基于Transformer架构，可以应用于各种场景。</p>
 <p>Sora能够生成高质量、高清的视频，展现复杂场景的光影关系、物体的物理遮挡和碰撞关系。</p>
 <p>Sora可以创造出包含多个角色、特定动作类型以及与主题和背景相符的详细场景。</p>
 <ul>
-<li><strong>问题：Sora的训练原理是什么？</strong></li>
+<li><h5 id="问题：Sora的训练原理是什么？"><a href="#问题：Sora的训练原理是什么？" class="headerlink" title="问题：Sora的训练原理是什么？"></a><strong>问题：Sora的训练原理是什么？</strong></h5></li>
 </ul>
 <p>Sora的训练分为两个阶段。首先，使用一个标注模型为训练集中的视频生成详细描述。</p>
 <p>标注模型生成的描述能够更好地指导Sora生成视频。</p>
