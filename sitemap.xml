@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://murphyzhang.top/posts/9a106065.html</loc>
+    
+    <lastmod>2024-04-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://murphyzhang.top/posts/8dbe1406.html</loc>
+    
+    <lastmod>2024-04-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://murphyzhang.top/tags/index.html</loc>
     
     <lastmod>2024-04-17</lastmod>
@@ -139,7 +157,7 @@
 
   <url>
     <loc>https://murphyzhang.top/</loc>
-    <lastmod>2024-04-17</lastmod>
+    <lastmod>2024-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -147,56 +165,56 @@
   
   <url>
     <loc>https://murphyzhang.top/tags/chatgpt/</loc>
-    <lastmod>2024-04-17</lastmod>
+    <lastmod>2024-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://murphyzhang.top/tags/claude3/</loc>
-    <lastmod>2024-04-17</lastmod>
+    <lastmod>2024-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://murphyzhang.top/tags/midjourney/</loc>
-    <lastmod>2024-04-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://murphyzhang.top/tags/AppleID/</loc>
-    <lastmod>2024-04-17</lastmod>
+    <lastmod>2024-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://murphyzhang.top/tags/gmail/</loc>
-    <lastmod>2024-04-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://murphyzhang.top/tags/YouTube/</loc>
-    <lastmod>2024-04-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://murphyzhang.top/tags/OpenAI-Sora/</loc>
-    <lastmod>2024-04-17</lastmod>
+    <lastmod>2024-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://murphyzhang.top/tags/onlyfans/</loc>
-    <lastmod>2024-04-17</lastmod>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://murphyzhang.top/tags/AppleID/</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://murphyzhang.top/tags/OpenAI-Sora/</loc>
+    <lastmod>2024-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://murphyzhang.top/tags/YouTube/</loc>
+    <lastmod>2024-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

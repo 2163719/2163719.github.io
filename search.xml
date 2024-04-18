@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>【2024】升级ChatGPT Plus出现「我们未能验证您的支付方式」怎么办？</title>
+      <link href="/posts/8dbe1406.html"/>
+      <url>/posts/8dbe1406.html</url>
+      
+        <content type="html"><![CDATA[<p>有的小伙伴在升级ChatGPT Plus的时候会出现以下情况：</p><blockquote><p>We are unable to authenticate your payment method. Please choose a different payment method and try again.<br>我们未能验证您的支付方式，请重新尝试不同的支付方式。</p></blockquote><p>就是如下图所示的情况<br><img src="https://s2.loli.net/2024/04/18/wYqaRVOvC9cntmf.png" alt="payment method.png"></p><p>这种情况出现的原因是：我们现在所使用的IP代理地址和其他很多人所使用的IP地址雷同，而被OpenAI指定的支付通道Stripe判定为支付风险过高，从而导致【We are unable to authenticate】我们无法订阅升级ChatGPT plus。</p><p>对于这种情况，<strong>有两种解决方式：</strong></p><ul><li>一是换个小众的IP地址，比如新加坡泰国瑞典芬兰等等，</li><li>二是可以通过wildcard的一键升级ChatGPT服务进行订阅，wildcard本质是一张借记卡，通过银联购汇，可以使用支付宝支付，能省去很多升级ChatGPT的繁琐步骤，通过 <a href="https://link.zhihu.com/?target=https://bewildcard.com/i/GPT888666">wildcard</a> 注册还可以获得至少8.7折优惠。另外，该平台还提供Plus随心用模式，如果觉得20美刀一个月太贵 且 对ChatGPT需求不是特别大 即短时间内不需要大量的tokens的话，可以选择这个模式。当然如果想使用纯原生GPT4模型，就还是需要支付20$&#x2F;月~</li></ul><p><img src="https://s2.loli.net/2024/04/18/sYLmFKO3e7b2Cvo.png" alt="declined1.png"></p><p>PS：第二种方案需要保证卡里的余额不是0，因为如果余额为0或者比较少的话，即使是绑卡，也会导致在订阅的时候因为余额不足而失败，后续如果还有剩余的money或者不需要订阅，随时从余额中取出即可。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> chatgpt </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【2024】升级ChatGPT出现「您的银行卡被拒绝了」该怎么办？</title>
+      <link href="/posts/9a106065.html"/>
+      <url>/posts/9a106065.html</url>
+      
+        <content type="html"><![CDATA[<p>有一些小伙伴有时候会过来问，我在升级订阅ChatGPT的时候，</p><p>会出现【Your card has been declined&#x2F;您的银行卡被拒绝了】这种情况，应该怎么办呢，很着急在线等。</p><p><img src="https://s2.loli.net/2024/04/18/ogOWVuU6Xp73dBs.png" alt="card declined.png"></p><p>这种情况发生的原因有如下几点：</p><ul><li>银行卡本身有问题</li><li>支付的时候IP地址被判断为风险过高</li></ul><p>第一点出现的原因不用多说了，一般的银行卡是不行的。</p><p>第二点出现的原因稍微有点复杂，由于 OpenAI 采用了 Stripe 的支付通道，所以顾客在绑定或者支付的时候，访问IP地址会被自动收集起来作为判断的依据，如果顾客的访问IP地址（大部分是代理）同样也是其他人绑定或者支付时使用的IP地址，自然就会被系统判定为风险过高，从而出现【your card has been declined】的状况。</p><p>那么应该怎么解决呢？</p><ul><li><p>对于第一种，需要开通visa卡，但即使银行卡没有问题，也仍然有可能出现第二种情况</p></li><li><p>对于第二种情况，有两种解决方式：一是换个小众的IP地址，二是可以直接通过wildcard的一键升级ChatGPT服务进行订阅「如下图」，wildcard本质是一张借记卡，通过银联购汇，可以使用支付宝支付，能省去很多升级ChatGPT时候的麻烦，通过 <a href="https://bewildcard.com/i/GPT888666">wildcard </a>注册还可以获得至少8.7折优惠。</p></li></ul><p><img src="https://s2.loli.net/2024/04/18/sYLmFKO3e7b2Cvo.png" alt="declined1.png"></p><p><strong>PS：第二种方案需要保证卡里余额不是0，即使是绑卡，余额为0也会导致在订阅的时候因为余额不足而失败</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> chatgpt </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【2024】如何注册Gmail谷歌邮箱？</title>
       <link href="/posts/9c7db2b4.html"/>
       <url>/posts/9c7db2b4.html</url>
